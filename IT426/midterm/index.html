@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title>Length Converter</title>
+    <body>
+        <div id="title">Miles to Kilometer</div>
+        <label for="input">Distance: </label>
+        <input type="text" id="input" placeholder="Enter Miles or Kilometer">
+        <br>
+        <label for="menuConverter">Select Conversion: </label>
+        <select name="menuConverter" id="menuConverter">
+            <option value="milesToKm">Miles to Kilometer</option>
+            <option value="kmToMiles">Kilometer to Miles</option>
+        </select>
+        <br>
+        <button id="trigger">Covert Now</button>
+        <div id="output"></div>
+
+        <script>
+            var userInput = 0;
+
+            var myInput = document.getElementById("input");
+            var myOutput = document.querySelector("output");
+            var myButton = document.getElementById("trigger");
+            var milesConverter = 0;
+            var kmConverter = 0;
+
+            menuConverter.addEventListener("change",clickHandler,false);
+
+            function clickHandler() {
+                userInput = parseInt(myInput.value);
+
+                // # for conversion
+                milesToKm = userInput*1.60934;
+                kmToMiles = userInput/1.60934;
+
+
+                // actually doing math and outputing numbers
+                if(isNaN(userInput)) {
+                    output.innerHTML = "Enter a valid number please.";
+                }
+                else if(menuConverter.value=="milesToKm") {
+                    output.innerHTML = userInput + " Mile is "+milesToKm.toFixed(2)+" Kilometer long.";
+                }
+                else if(menuConverter.value=="kmToMiles") {
+                    output.innerHTML = userInput + " Kilometer is "+kmToMiles.toFixed(2)+" Miles long.";
+                }
+            }
+        </script>
+        <footer>
+            <center>
+                <p>Made By Alex Kenny</p>
+                <a href="../../index.html">My Index Page</a>
+            </center>
+        </footer>
+    </body>
+</html>

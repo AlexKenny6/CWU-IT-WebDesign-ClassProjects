@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Video Game Central</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1><i>Video Game Central</i></h1>
+            <h2>&quot;Better than any other game store you'll buy from&quot;</h2>
+        </div>
+        
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+            <a href="#" class="right">Log Out</a>
+        </div>
+
+        <div class="row">
+            <div class="main">
+                <center><h2>Welcome to your dashboard <i>Video Game Central</i></h2></center>
+                <div id="columnWrapper">
+                    <div id="addGame"> &nbsp;&nbsp;Add a new game:
+                        <div id="inputs">
+                            <form id="inputForm">
+                                <p>
+                                    <label>Type: </label>
+                                    <br>
+                                    <select id="dropType">
+                                    <option>Select Type</option>
+                                    <option value="Shooter">Shooter</option>
+                                    <option value="RPG">Role Playing Game</option>
+                                    <option value="Sports">Sports Games</option>
+                                    <option value="BR">Battle Royale</option>
+                                    </select>
+                                    <br><br>
+                                    <label>Name of Video Game: </label>
+                                    <br>
+                                    <input name="inputGame" type="text" id="inputGame">
+                                    <br><br>
+                                    <label>Total number in stock: </label>
+                                    <br>
+                                    <input name="inputQuantity" type="text" id="inputQuantity">
+                                </p>
+                                <p>
+                                    <input type="button" name="button" id="button" value="Submit" onClick="getFromForm()">
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="currentInventory">
+                        <div id="sortButtons">&nbsp;&nbsp;Sort by?
+                            <input name="Type" type="button" id="Type" title="Type" value="Type" onClick="typeSort()">
+                            <input name="Game" type="button" id="Game" title="Game" value="Game" onClick="gameSort()">
+                            <input name="Amount" type="button" id="Amount" title="Amount" value="Amount" onClick="amountSort()">
+                            <br><br>
+                            <div id="inventoryTitle"></div>
+                            <div id="answer"></div>
+                        </div>
+                        <div class="clearIt"></div>
+                    </div>
+                    <div class="clearIt"></div>
+                </div>
+            
+            </div>
+        </div>
+
+        <!-- <div id="container">
+
+             <div id="columnWrapper">
+                <div id="addGame"> &nbsp;&nbsp;Add a new game:
+                    <div id="inputs">
+                        <form id="inputForm">
+                            <p>
+                                <label>Type: </label>
+                                <br>
+                                <select id="dropType">
+                                <option>Select Type</option>
+                                <option value="Shooter">Shooter</option>
+                                <option value="RPG">Role Playing Game</option>
+                                <option value="Sports">Sports Games</option>
+                                <option value="BR">Battle Royale</option>
+                                </select>
+                                <br><br>
+                                <label>Name of Video Game: </label>
+                                <br>
+                                <input name="inputGame" type="text" id="inputGame">
+                                <br><br>
+                                <label>Total number in stock: </label>
+                                <br>
+                                <input name="inputQuantity" type="text" id="inputQuantity">
+                            </p>
+                            <p>
+                                <input type="button" name="button" id="button" value="Submit" onClick="getFromForm()">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+                <div id="currentInventory">
+                    <div id="sortButtons">&nbsp;&nbsp;Sort by?
+                        <input name="Type" type="button" id="Type" title="Type" value="Type" onClick="typeSort()">
+                        <input name="Game" type="button" id="Game" title="Game" value="Game" onClick="gameSort()">
+                        <input name="Amount" type="button" id="Amount" title="Amount" value="Amount" onClick="amountSort()">
+                        <br><br>
+                        <div id="inventoryTitle"></div>
+                        <div id="answer"></div>
+                    </div>
+                    <div class="clearIt"></div>
+                </div>
+                <div class="clearIt"></div>
+            </div> 
+        </div> -->
+        <!--
+        
+        <div class="clearIt"></div>
+        <div id="chart_div"></div>
+        <div id="chart_div2"></div>  
+    
+        -->
+        <br><br><br><br><br>
+        <div class="footer">
+            <h2>&copy; Video Game Central 2020, All Rights Reserved</h2>
+            <p>IT 426 Index Page <a href="../../index-426.html">Here</a></p>
+        </div>
+
+
+        
+        <!-- Above code is for the games -->
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

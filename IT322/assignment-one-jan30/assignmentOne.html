@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment One</title>
+		<link rel="stylesheet" href="css/slideshow.css"><!-- my css -->
+		
+		<!-- Jquery code -->
+		<script
+		  src="https://code.jquery.com/jquery-3.4.1.js"
+		  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		  crossorigin="anonymous">
+		</script>
+		<!-- Load the codes necessary to migrate from an earlier version (optional) -->
+		<script
+		  src="https://code.jquery.com/jquery-migrate-3.1.0.js"
+		  integrity="sha256-oA/lsZCgEPkbv/byAkeXSTEZTsGOPZCrtbyFBHmcGKM="
+		  crossorigin="anonymous">
+		</script>
+		<!-- Load the jquery UI library from the CDN -->
+		<script
+		  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+		  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+		  crossorigin="anonymous">
+		</script>		
+		<!-- Load a basic stylesheet for structure and theme -->
+		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<!-- end of jquery code -->
+	</head>
+
+	<body> 
+		<div id="container">
+			<div id="title">
+				Assignment One
+			</div>
+			
+			<div id="divOnYourPage">
+				<div class="panoWrapper">
+					<div id="pano">
+						<!-- Load the pictures in order from left to right - the first and last picture must be the same! -->
+						<img src="img/tajMahal_320x240.jpg" alt="Pic 1">
+						<img src="img/lincoln_320x240.jpg" alt="Pic 2">
+						<img src="img/rome_320x240.jpg" alt="Pic 3">
+						<img src="img/gondolas_320x240.jpg" alt="Pic 4">
+						<img src="img/tajMahal_320x240.jpg" alt="Pic 1">
+					</div>
+					<div class="clearIt"></div>
+				</div>
+			</div><!-- end of slideshow -->
+			
+			<br><br><br>
+			
+			<div id="mytabs">	
+				<ul>
+					<li><a href="#t1">First</a></li>
+					<li><a href="#t2">Second</a></li>
+					<li><a href="#t3">Third</a></li>
+				</ul>
+				<div id="t1">
+					info 1
+				</div>
+				<div id="t2">
+					info 2
+				</div>
+				<div id="t3">
+					info 3
+				</div>
+			</div><!-- end of tabs -->
+			
+			<br><br><br>
+			
+			<div id="effectDiv">
+				<br><br><br><br>
+				Hello World!
+			</div><!-- End of picture effect-->
+			
+			
+		</div><!-- container end -->
+		<br>
+		<br>
+		<br>
+		<center><div id="footer">&copy; Alex Kenny 2020 <br><a href="../../index.html" style="color: red;">Index Page</a></div></center>
+		
+		<script src="js/slideshow.js"></script>
+	</body>
+</html>

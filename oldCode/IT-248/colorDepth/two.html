@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Color Depth Explained!</title>
+		<link rel="stylesheet" href="main.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet"> 
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="title">
+				<h1><img src="media/titlegraphic.gif" alt="Gif">Color Depth Explained Example!</h1>
+			</div>
+			<div id="nav">
+				<a href="index.html">Home<hr></a>
+				<a href="two.html">Graphics<hr></a>
+				<a href="#">Five Types of Media<hr></a>
+			</div>
+			<div id="content">
+				<div id="columnWrapper">
+					<div id="columnLeft">
+						<p>GIF - Graphics Interchange Format<br><br>
+							This is the most common graphic format on the Web. It can be used for stills or animated images. It can only show 256 colors (8 bit) but the images don't loose any color information in compression. (GIF's are "lossless.") They can make use of transparency (an alpha channel) to allow the background of the web page show through parts of the image. Because of the way they compress information, GIFs work best when large areas of color appear in the original image. It is possible to simulate more colors in a GIF by using dithering. Dithering places two color pixels (from the 256 possible) right next to each other so that they appear as a third color. (A red pixel right next to a blue pixel appears to the eye as purple.) Dithering sharply increases file size! GIF files can be interlaced - they will first appear in low resolution and then gradually appear in full resolution as they completely download.</p><br><br>
+							<p>
+							JPEG - Joint Photographic Experts Group (JPG in Windows) <br><br>
+							JPEG was developed primarily for photographic images, but it works well with all sorts of pictures. It uses 24 bit color so it supports millions of colors. It will not support transparency and is a "lossy" format. Lossy means that it will loose color information as it compresses the file from the original. It is possible to control how much is lost. Hard edges in a picture do not compress well in JPEG so it is also possible to set JPEG's smoothing effects. The more smoothing in a picture the smaller the file size. JPEG's can load progressively - the picture will load quickly at a low resolution and then gain detail as the download continues. Progressive loads are slightly different than an interlaced load, like those used in GIFs. Gradient colors, photographs or scanned images work best with JPEG.</p>
+					</div>
+					<div id="columnRight">
+						<center><h1>Example of a gif:</h1></center>
+						<center><img src="media/page2GIF.gif" alt="Gif 3"></center>
+					</div>
+					<div class="clearIt"></div>
+				</div>
+			</div>
+			<div id="footer">
+				<p><a href="http://www.cwu.edu/~kennya/">Index Page</a></p>
+				<p>&copy; Alex Kenny, All rights reserved</p>
+			</div>
+		</div>
+	</body>
+</html>

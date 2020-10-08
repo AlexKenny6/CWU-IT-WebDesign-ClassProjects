@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataroot>
+<print>
+<ID>1</ID>
+<subject>Firenze</subject>
+<printSizes>30 x 20 inches</printSizes>
+<photo>firenze.jpg</photo>
+<cost>$20.99</cost>
+<artist> &#169; PrizePictures - 2015</artist>
+<desc>The Duomo in Florence, Italy presented on faux plaster.</desc>
+</print>
+<print>
+<ID>2</ID>
+<subject>Toy Cars</subject>
+<printSizes>36 x 24 inches</printSizes>
+<photo>toyCars.jpg</photo>
+<cost>$25.99</cost>
+<artist> &#169; PrizePictures - 2017</artist>
+<desc>An actual street view, displayed as toy cars.</desc>
+</print>
+<print>
+<ID>3</ID>
+<subject>Agora</subject>
+<printSizes>14 x 11 inches</printSizes>
+<photo>agora.jpg</photo>
+<cost>$50.99</cost>
+<artist> &#169; SeaWall Photo - 2017</artist>
+<desc>The Temple of Hephaistos in Athens, Greece.</desc>
+</print>
+<print>
+<ID>4</ID>
+<subject>Cannon Beach</subject>
+<printSizes>16 x 12 inches</printSizes>
+<photo>cannonBeach1.jpg</photo>
+<cost>$75.99</cost>
+<artist> &#169; SeaWall Photo - 2015</artist>
+<desc>False color image of Haystack Rock</desc>
+</print>
+</dataroot>

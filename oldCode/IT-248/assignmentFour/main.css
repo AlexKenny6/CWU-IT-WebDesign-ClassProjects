@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Vars */
+:root {
+    --main: #C0C0C0;
+}
+			
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	text-content: center;
+	font-family: 'Merriweather', serif;
+	width: 100%;
+	height: 100%;
+	text-size: xx-large;
+	padding: 0 20;
+	background-color: var(--main);
+	align-content: center;
+
+}
+
+#title {
+	font-size: xx-large;
+	color: white;
+	background-color: var(--main);
+	text-align: center;
+	height: 100px;
+}
+
+
+
+#nav {
+	padding-bottom: 10px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: white;
+	background-color: var(--main);
+	float: left;
+	display: block;
+	width: 33.33%;
+	text-align: center;
+}
+
+#nav a:hover {
+	background-color: white;
+	color: var(--main);
+}
+
+/******************** Content Top Start *********************/
+
+#content {
+	padding: 15px;
+}
+
+#content p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#columnWrapper {
+	width: auto;
+	background-color: white;
+	padding: 5px;
+}
+
+#columnWrapper h2 {
+	text-align: center;
+	color: black;
+}
+
+#columnWrapper h2 hr {
+	width: 100%;
+}
+
+#columnWrapper p {
+	text-align: left;
+}
+
+#columnLeft {
+	float: left;
+	width: 50%;
+}
+
+#columnLeft p {
+	color: black;
+}
+
+#columnLeft hr {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#columnRight {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+#columnRight img {
+	max-width: 300px;
+	max-height: 300px;
+	width: 100%;
+	height: 100%;
+	align-self: center;
+	padding: 10px;
+}
+
+#columnRightPic img {
+	max-width: 300px;
+	max-height: 300px;
+	width: 100%;
+	height: 100%;
+	align-self: center;
+	padding: 10px;
+	transform: rotate(15deg);
+}
+
+/********************** Content Bottom Start ********************/
+
+
+#contentBottom {
+	padding: 15px;
+}
+
+#contentBottom p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#columnWrapperBottom {
+	width: auto;
+	background-color: white;
+	padding: 5px;
+}
+
+#columnWrapperBottom h2 {
+	text-align: center;
+	color: black;
+}
+
+#columnWrapperBottom h2 hr {
+	width: 100%;
+}
+
+#columnWrapperBottom p {
+	text-align: left;
+}
+
+#columnLeftBottom {
+	float: left;
+	width: 50%;
+}
+
+#columnLeftBottom p {
+	color: black;
+}
+
+#columnLeftBottom img {
+	max-width: 300px;
+	width: 100%;
+	max-height: 300px;
+	height: 100%;
+	align-self: center;
+	padding: 10px;
+}
+
+#columnLeftBottom hr {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#columnRightBottom {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+
+/********************** Content Bottom End **********************/
+
+/******************* Very Bottom Content Start *******************/
+
+
+#columnWrapperLast {
+	width: auto;
+	background-color: white;
+	padding: 5px;
+}
+
+#columnWrapperLast h2 {
+	text-align: center;
+	color: black;
+}
+
+#columnWrapperLast h2 hr {
+	width: 100%;
+}
+
+#columnWrapperLast p {
+	text-align: left;
+}
+
+#columnRightLast p {
+	text-align: left;
+}
+
+
+/********************** End of very bottom content ****************/
+
+
+
+
+.clearIt {
+	clear: left;
+}
+
+#footer {
+	text-align: center;
+	padding: 5;
+}
+
+#footer p {
+	padding-bottom: 10px;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+	background-color: var(--main);
+}
+
+#footer a:hover {
+	background-color: white;
+	color: var(--main);
+}

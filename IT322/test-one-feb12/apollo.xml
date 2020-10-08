@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2020-01-21T17:50:46">
+<apollo>
+<ID>1</ID>
+<Flight>Apollo 1 Flight Patch</Flight>
+<Year>1967</Year>
+<LaunchVehicle>Saturn IB</LaunchVehicle>
+<Spacecraft>Apollo CSM</Spacecraft>
+<Crew>Virgil Grissom, Edward White, Roger Chaffee</Crew>
+<Notes>January 27, 1967-Fire on the pad during test simulation and crew killed</Notes>
+<Patch>apollo1_patch.gif</Patch>
+<price>$9.99</price>
+<stock>In Stock</stock>
+<sale>Yes</sale>
+<quantity>7</quantity>
+<productDesc>This is the first product ever available for sale.</productDesc>
+</apollo>
+<apollo>
+<ID>2</ID>
+<Flight>Apollo 8 Flight Patch</Flight>
+<Year>1968</Year>
+<LaunchVehicle>Saturn V</LaunchVehicle>
+<Spacecraft>Apollo CSM</Spacecraft>
+<Crew>Frank Borman, William Anders,   James Lovell</Crew>
+<LaunchDate>12/21/1968</LaunchDate>
+<LandingDate>12/27/1968</LandingDate>
+<Duration>6.13 days</Duration>
+<Notes>1st men in lunar orbit</Notes>
+<Patch>apollo8_patch.gif</Patch>
+<price>$19.99</price>
+<stock>Out Of Stock</stock>
+<sale>No</sale>
+<quantity>0</quantity>
+<productDesc>This is the second product and our best selling one.</productDesc>
+</apollo>
+<apollo>
+<ID>3</ID>
+<Flight>Apollo 12 Flight Patch</Flight>
+<Year>1969</Year>
+<LaunchVehicle>Saturn V</LaunchVehicle>
+<Spacecraft>Apollo CSM &amp; LEM</Spacecraft>
+<Crew>Charles Conrad, Richard Gordon, Alan Bean</Crew>
+<LaunchDate>11/14/1969</LaunchDate>
+<LandingDate>11/24/1969</LandingDate>
+<Duration>10.19 days</Duration>
+<Notes>First (broken) color camera on the Moon</Notes>
+<Patch>apollo12_patch.gif</Patch>
+<price>$99.99</price>
+<stock>In Stock</stock>
+<sale>No</sale>
+<quantity>1</quantity>
+<productDesc>This is the second product and our best selling one.</productDesc>
+</apollo>
+</dataroot>

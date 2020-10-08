@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataroot>
+<print>
+<ID>1</ID>
+<subject>Air Jordan 1 OG High Flyknit Wolf Grey</subject>
+<Sizes>5, 10, 11, 12, 13</Sizes>
+<photo>shoes/AJ1OGHighFlyknit-WolfGrey.jpg</photo>
+<cost>$190</cost>
+<desc>
+Released in November 2017, these shoes are the first version of the classic Air Jordan 1 with Nike's flynit material.
+It's been used in other shoes but this time, Nike decided to do something bold.
+Since their slogan is "Just Do It", this is a fitting decision.  
+</desc>
+</print>
+
+<print>
+<ID>2</ID>
+<subject>Air Jordan 11 Low Snakeskin</subject>
+<Sizes>9, 12, 13</Sizes>
+<photo>shoes/AJ11-Snakeskin.jpg</photo>
+<cost>$240</cost>
+<desc>
+Designed from the Air Jordan Concord 11, this low version is a stylish remake that appeased a new crowd of people who love Air Jordans.
+</desc>
+</print>
+
+<print>
+<ID>3</ID>
+<subject>Lebron 15 Low Melon</subject>
+<Sizes>7, 10, 11</Sizes>
+<photo>shoes/lebron15-melon.jpg</photo>
+<cost>$180</cost>
+<desc>
+The LeBron 15 Low Melon is one of a series of shoes LeBron released in mid 2018.
+</desc>
+</print>
+
+<print>
+<ID>4</ID>
+<subject>LeBron Soldier 13 SFG Red, Black, White</subject>
+<Sizes>4, 9, 12</Sizes>
+<photo>shoes/lebron13-UniversityRedBlack.webp</photo>
+<cost>$115</cost>
+<desc>
+This shoe was released by LeBron to combine technology he has spearheaded like more cushioning support for the feet and a flexible collar.
+</desc>
+</print>
+</dataroot>

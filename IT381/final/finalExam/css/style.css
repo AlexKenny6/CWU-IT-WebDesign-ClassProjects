@@ -1,0 +1,69 @@
+	#wrapper {
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 15px;
+		border: medium solid #000;
+		background-color: #FFF;
+	}
+
+	#title {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: large;
+		padding: 0px;
+		background-image: url(../img/ApolloTitle.jpg);
+		background-repeat: no-repeat;
+		border-radius: 12px 12px 0px 0px;
+		height: 120px;
+	}
+
+	#content {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: medium;
+		padding-left: 25px;
+	}
+
+	#content img {
+		padding-left: 70px;
+	}
+
+	.myList {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: small;
+		color: #006;
+		list-style-type: none;
+	}
+
+	.myList a {
+		text-decoration: none;
+	}
+
+	#intro {
+		padding: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#flightPatch {
+		width: 100%;
+		height: 80px;
+		padding: 15px;
+		max-width: 80px;
+	}
+
+	.fa-rocket {
+		color: #e56b32;
+		font-size: 1.2rem;
+		padding: 5px;
+		align-content: center;
+	}
+
+	#linkStuff a {
+		color: #e56b32;
+		text-decoration: none;
+	}
+
+	#linkStuff a:hover, span:hover {
+		color: #17b349;
+	}
+
+

@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Space Needle Final</title>
+<style type="text/css">
+	#container {
+		position: absolute;
+		left: 100px;
+		top: 50px;
+	}
+	#picMask {
+		width: 719px;
+		height: 420px;
+		float: left;
+		position: relative;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	#picHolder {
+		position: relative;
+	}
+	#title{
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+		font-size: xx-large;
+		text-align: center;
+	}
+
+	#smallPic {
+		float: left;
+		width: 189px;
+		height: 420px;
+		background-image: url("spaceNeedleSmall.jpg");
+	}
+
+	#picOutline {
+		position: relative;
+	}
+</style>
+</head>
+
+	<body>
+		<div id="container">
+			<div id="title">The Space Needle</div>
+			<ul>
+				<li><a href="../../index-426.html">IT 426 Index</a></li>
+			</ul>
+			<div id="picMask" onmousemove = "getCurrentX(event)" onmouseover = "getMoving(event)" onmouseout = "makeItStop()">
+				<div id="picHolder">
+					<img id="SpaceNeedle" src="spaceNeedle.jpg" width="719" height="1600" alt="Space Needle"/>
+				</div>
+			</div>
+			<div id="smallPic">
+				<div id="picOutline">
+					<img src="outline.gif" alt=""/>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+		
+			var currentPosition = 0;
+			
+			// globals
+			var timerId;
+			var currentX;
+			var titleText = "";
+			var title = document.getElementById('title');
+
+			function getCurrentX(event) {
+
+				currentX = event.clientY - 100;
+			
+			} // end of func getCurrentX()
+
+			function doTheTitle() {
+
+				switch(true) {
+
+					case (currentPosition < 0 && currentPosition > -300):
+						titleText = "The Space Needle";
+					break;
+					
+					case (currentPosition < -301 && currentPosition > -600): 
+						titleText = "Seattle, Washington";
+					break;
+
+					case (currentPosition < -601 && currentPosition > -900): 
+						titleText = "Opened in 1962";
+					break;
+
+					case (currentPosition < -901 && currentPosition > -1200): 
+						titleText = "Symbol of the Seattle World's Fair";
+					break;
+
+				}
+
+				title.innerHTML = titleText;
+
+			} // end of func doTheTitle()
+
+			function makeItStop() { 
+
+				clearInterval(timerId); 
+
+			} // end of func makeItStop()
+
+			function getMoving(event) {
+
+				timerId = setInterval(function(){
+
+					if (currentX < 250 && currentPosition > -1100) {
+
+						currentPosition = currentPosition -2;
+
+					}
+					
+					else if (currentX > 250 && currentPosition < 0) {
+
+						currentPosition = currentPosition +2;
+
+					}
+
+					document.getElementById('picHolder').style.top = currentPosition + 'px';
+					document.getElementById('picOutline').style.top = (-currentPosition/3.55) + 'px';
+
+					doTheTitle();
+
+				}, 10);
+
+			} // end of func getMoving()
+
+		</script>
+	</body>
+</html>

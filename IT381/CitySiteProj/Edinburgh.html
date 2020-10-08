@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Edinburgh - Gateway to Scotland's Secrets</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+</script> 
+<!-- Load the code necessary to migrate from an earlier version (optional) --> 
+<script
+  src="https://code.jquery.com/jquery-migrate-3.1.0.js"
+  integrity="sha256-oA/lsZCgEPkbv/byAkeXSTEZTsGOPZCrtbyFBHmcGKM="
+  crossorigin="anonymous">
+</script> 
+<!-- Load the code for the mobile extensions --> 
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+<!-- Load the base stylesheet for jquery mobile -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+</head>
+
+<body>
+
+  <style>
+    .main-img {
+      height: 100%;
+      width: 100%;
+      max-width: 700px;
+      max-height: 350px;
+    }
+
+    .sub-img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .page-img {
+      height: 100%;
+      width: 100%;
+      max-width: 400px;
+      max-height: 300px;
+    }
+  </style>
+
+  <div data-role="page" id="page">
+  <div data-role="header">
+    <h1>Welcome to Edinburgh
+      <br>
+      <img src="img/newMain.jpeg" class="main-img" alt="Welcome">
+    </h1>
+  </div>
+  <div role="main" class="ui-content">
+    <ul data-role="listview">
+      <li><a href="#page1"><img class="sub-img" src="img/castle.jpeg">About the City<br><small>And the history behind it</small></a></li>
+      <li><a href="#page2"><img class="sub-img" src="img/thingstodo.jpeg">Things To Do<br><small>Frine Festival is a must see</small></a></li>
+      <li><a href="#page3"><img class="sub-img" src="img/hotel.jpeg">Where To Stay<br><small>Tons of hotels and places to stay</small></a></li>
+      <li><a href="#page4"><img class="sub-img" src="img/edinburghPic.jpeg">Trip Expenses<br><small>Start saving now ;)</small></a></li>
+      </ul>
+  </div>
+    <div data-role="footer">
+      <h4>&copy; Alex Kenny 2020</h4>
+      <br>
+      <center><a href="../index-381.html">IT 381 Index</a></center>
+    </div>
+  </div>
+
+  <div data-role="page" id="page1">
+    <div data-role="header">
+    <a href="#page" class=" ui-btn ui-btn-left ui-icon-arrow-l ui-btn-icon-left">Home</a>
+      <h1>About Edinburgh</h1>
+    </div>
+    <div class="ui-content">
+      <center><img src="img/castle.jpeg" class="page-img" alt=""></center>
+      <p>Edinburgh is a lovely city to visit with a ton of history just waiting to be explored.</p>
+      <p>Historical Things in Edinburgh:
+        <ul>
+          <li>Visit Edinburgh Castle and learn about the wars fought</li>
+          <li>Walk down the Royal Mile and take a tour in the royal mansion and see what British Royalty have lived there</li>
+          <li>Learn about Scottish history.</li>
+        </ul>
+      </p>
+    </div>
+    <div data-role="footer">
+      <h4>&copy; Alex Kenny 2020</h4>
+      <br>
+      <center><a href="../index-381.html">IT 381 Index</a></center>
+    </div>
+  </div>
+
+  <div data-role="page" id="page2">
+    <div data-role="header">
+    <a href="#page" class="ui-btn ui-btn-left ui-icon-arrow-l ui-btn-icon-left">Home</a>
+      <h1>Things To Do</h1>
+    </div>
+    <div class="ui-content">
+      <center><img src="img/thingstodo.jpeg" class="page-img" alt=""></center>
+      <p>Fringe Festival is something to witness</p>
+      <p>Some things to do:
+        <ul>
+          <li>Visit Edinburgh Castle</li>
+          <li>Go to the Science Museum</li>
+          <li>Walk around the streets and witness Fringe Festival</li>
+        </ul>
+      </p>
+    </div>
+    <div data-role="footer">
+      <h4>&copy; Alex Kenny 2020</h4>
+      <br>
+      <center><a href="../index-381.html">IT 381 Index</a></center>
+    </div>
+  </div>
+
+  <div data-role="page" id="page3">
+    <div data-role="header">
+      <a href="#page" class="ui-btn ui-btn-left ui-icon-arrow-l ui-btn-icon-left">Home</a>
+      <h1>Where To Stay</h1>
+    </div>
+    <div class="ui-content" role="main">
+      <center><img src="img/hotel.jpeg" class="page-img" alt=""></center>
+      <p> is a great hostel to go to</p>
+      <p>Some Places to Stay At:
+        <ul>
+          <li>CoDE Pod Hostel THE LoFT is a great place to go - 9.5 on HostelWorld</li>
+          <li>Merith House Hotel is another great option - 9.1/10 on HostelWorld</li>
+        </ul>
+      </p>
+    </div>
+    <div data-role="footer">
+      <h4>&copy; Alex Kenny 2020</h4>
+      <br>
+      <center><a href="../index-381.html">IT 381 Index</a></center>
+    </div>
+  </div>
+
+  <div data-role="page" id="page4">
+    <div data-role="header">
+    <a href="#page" class="ui-btn ui-btn-left ui-icon-arrow-l ui-btn-icon-left">Home</a>
+      <h1>Cost Of Going</h1>
+    </div>
+    <div class="ui-content">
+      <center><img src="img/edinburghSunset.jpeg" class="page-img" alt=""></center>
+      <!-- Content Below -->
+
+      <h1 id="answer"></h1>
+
+      <p>Amount of people going?</p>
+      <input type="text" id="peopleNum" placeholder="3">
+      <br><br>
+
+      
+      <p>Cost Per Person (Based on chart)</p>
+      <ul style="list-style: none;">
+        <li>Cheap Hostel: 45 Euros/Night</li>
+        <li>Decent Hotel: 75 Euros/Night</li>
+        <li>Fancy Hotel: 250 Euros/Night</li>
+      </ul>
+      <input type="text" id="costPerNightNum" placeholder="45">
+      <br><br>
+
+      <button onclick="calc();">Calc</button>
+      
+
+      <script>
+        function calc() {
+
+          var field1 = document.getElementById("peopleNum").value;
+          var field2 = document.getElementById("costPerNightNum").value;
+
+          var result = document = parseFloat(field1)*parseFloat(field2);
+
+          if(!isNaN(result)) {
+            document.getElementById("answer").innerHTML = "The Total Cost is <i>"+result+"</i> Euros/Night.";
+          }
+
+        }
+      </script>
+    
+      <!-- Content Above -->
+    </div>
+    <div data-role="footer">
+      <h4>&copy; Alex Kenny 2020</h4>
+      <br>
+      <center><a href="../index-381.html">IT 381 Index</a></center>
+    </div>
+  </div>
+
+</body>
+</html>

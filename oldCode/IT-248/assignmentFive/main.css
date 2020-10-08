@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+	--main: #e0e0e0;
+	--secondary: blue;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	text-content: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	width: 100%;
+	height: 100%;
+	text-size: xx-large;
+	padding: 0 20;
+	background-color: var(--main);
+	align-content: center;
+
+}
+
+#title {
+	font-size: xx-large;
+	color: var(--secondary);
+	background-color: var(--main);
+	text-align: center;
+	height: 75px;
+}
+
+#content {
+	padding: 5px;
+}
+
+#content p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#columnWrapper {
+	width: auto;
+	background-color: white;
+	padding: 5px;
+}
+
+#topInfo {
+
+}
+
+#topInfo h2 {
+	color: var(--secondary);
+	text-align: center;
+}
+
+
+#bottomInfo h2 {
+	color: var(--secondary);
+	text-align: center;
+}
+
+
+#footer {
+	text-align: center;
+	padding: 5;
+}
+
+#footer p {
+	padding-bottom: 10px;
+}
+
+#footer a {
+	color: var(--secondary);
+	text-decoration: none;
+	background-color: var(--main);
+}
+
+#footer a:hover {
+	background-color: white;
+	color: var(--main);
+}

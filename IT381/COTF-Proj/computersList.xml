@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot>
+<standards>
+<interestRate>8.0</interestRate>
+<salesTax>0.083</salesTax>
+</standards>
+
+<computer>
+<ID>1</ID>
+<brand>Apple</brand>
+<cost>1,299</cost>
+<model>iMac G3</model>
+<pic>g3.jpg</pic>
+<term>7</term>
+<notes>Used a PowerPC G3 as a CPU!</notes>
+</computer>
+
+<computer>
+<ID>2</ID>
+<brand>Apple</brand>
+<cost>1,299</cost>
+<model>iMac G4</model>
+<pic>g4.png</pic>
+<term>8</term>
+<notes>Has up to 160 GB HDD!!!</notes>
+</computer>
+
+<computer>
+<ID>3</ID>
+<brand>Apple</brand>
+<cost>1,499</cost>
+<model>iMac G5</model>
+<pic>g5.jpg</pic>
+<term>10</term>
+<notes>Has up to 500 GB HDD!!!</notes>
+</computer>
+
+<computer>
+<ID>4</ID>
+<brand>Apple</brand>
+<cost>1,199</cost>
+<model>iMac (Intel Plastic)</model>
+<pic>plastic.png</pic>
+<term>5</term>
+<notes>Has up to 750 GB HDD!!!</notes>
+</computer>
+
+<computer>
+<ID>5</ID>
+<brand>Apple</brand>
+<cost>1,199</cost>
+<model>iMac (Aluminum)</model>
+<pic>aluminum.jpeg</pic>
+<term>4</term>
+<notes>Has up to 1 TB HDD or 256 SSD!!!!</notes>
+</computer>
+
+</dataroot>

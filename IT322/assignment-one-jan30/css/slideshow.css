@@ -1,0 +1,58 @@
+/* CSS Document */
+
+#pano{
+/*Set the width of #pano to the total width of all the images combined*/
+	width: 1600px; /*(320px x 5)*/
+	position: relative;
+	z-index: 0;
+}
+.panoWrapper{	
+/*Set the width of #panoWrapper equal to the width of one picture*/
+	width:320px;
+	height:240px;
+	overflow: hidden;
+    z-index: 1;
+}
+.divOnYourPage{
+/*This is the div on your page that contains #panoWrapper and #pano. It can be called anything, but position has to be set to relative. */
+	position:relative;
+	width:320px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 2;
+}
+#pano img{
+	float:left;
+}
+.clearIt {
+	clear: left;
+	text-align: center;
+}
+
+/*container and #title are not necessary for the slideshow to work*/
+#container{
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#effectDiv {
+	border: 1px solid #000;
+	width: 500px;
+	height: 400px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(232,39,39,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(232,39,39,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(232,39,39,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(232,39,39,1.00) 100%);
+	color: #FBF7F7;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: xx-large;
+	text-align: center;
+}

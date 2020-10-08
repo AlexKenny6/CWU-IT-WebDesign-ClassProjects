@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Vars */
+:root {
+    --main: #add8e6;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	text-content: center;
+	font-family: 'Mukta', sans-serif;
+	width: 100%;
+	height: 100%;
+	text-size: xx-large;
+	padding: 0 20;
+	background: var(--main);
+	align-content: center;
+}
+
+#title {
+	font-size: xx-large;
+	color: grey;
+	background-color: var(--main);
+	text-align: center;
+	height: 100px;
+}
+
+
+
+#nav {
+	padding-bottom: 10px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: grey;
+	background-color: var(--main);
+	float: left;
+	display: block;
+	width: 33.33%;
+	text-align: center;
+}
+
+#nav a:hover {
+	background-color: white;
+	color: var(--main);
+}
+
+/******************** Content Top Start *********************/
+
+#content {
+	padding: 15px;
+}
+
+
+#content p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#columnWrapper {
+	width: auto;
+	background-color: white;
+	padding: 5px;
+}
+
+#columnWrapper p {
+	text-align: left;
+}
+
+#columnLeft {
+	float: left;
+	width: 50%;
+}
+
+#columnLeft p {
+	color: black;
+}
+
+#columnLeft hr {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#columnRight {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+#columnRight img {
+	max-width: 300px;
+	max-height: 300px;
+	width: 100%;
+	height: 100%;
+	align-self: center;
+	padding: 10px;
+}
+
+#columnRight h1 {
+	color: var(--main);
+}
+
+#columnLeft h1 {
+	color: var(--main);
+}
+
+
+.clearIt {
+	clear: left;
+}
+
+#footer {
+	text-align: center;
+	padding: 5;
+}
+
+#footer p {
+	padding-bottom: 10px;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+	background-color: var(--main);
+}
+
+#footer a:hover {
+	background-color: white;
+	color: var(--main);
+}
+
+body {
+	
+}

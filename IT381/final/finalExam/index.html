@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Manned Apollo Missions IT381 Final</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous">
+    </script> 
+    <!-- Load the code necessary to migrate from an earlier version (optional) --> 
+    <script
+      src="https://code.jquery.com/jquery-migrate-3.1.0.js"
+      integrity="sha256-oA/lsZCgEPkbv/byAkeXSTEZTsGOPZCrtbyFBHmcGKM="
+      crossorigin="anonymous">
+    </script> 
+    <!-- Load the code for the mobile extensions --> 
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+    <!-- Load the base stylesheet for jquery mobile -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e65704fbb9.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/apolloShow.js"></script>
+  </head>
+
+  <body>
+    <!-- Index -->
+    <div data-role="page" id="page">
+      <div data-role="header">
+        <h1>Manned Apollo Missions</h1>
+      </div>
+      <br>
+      <div id="wrapper">
+        <div id="title"></div>
+      </div>
+      <div class="ui-content" id="intro" role="main">
+        <br><br>
+        <p style="padding: 10px;">
+          The Apollo missions had a single purpose. 
+          President John F. Kennedy set the goal in a speech to a joint session of Congress on May 25, 1961.
+          "First, I believe that this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the moon and returning him safely to the earth. 
+          No single space project in this period will be more impressive to mankind, or more important for the long-range exploration of space; and none will be so difficult or expensive to accomplish."
+          <br><br>
+        </p>
+        <br><br>
+        <center>
+          <div id="linkStuff">
+            <a href="#page1" class="ui-btn ui-icon-blank">
+              Read More About These Impressive Flights <span class="fas fa-rocket"></span>
+            </a>
+          </div>
+        </center>
+        
+      </div>
+      <!-- start of footer -->
+      <div data-role="footer" data-position="fixed" id="linkStuff">
+        <h4> 
+          <a href="#page">Home Page <span class="fas fa-rocket"></span></a>
+          <br><br>
+          <a href="../../index-381.html">IT 381 Index Page <span class="fas fa-rocket"></span></a>
+        </h4>
+      </div>
+      <!-- end of footer -->
+    </div>
+    <!-- End of index -->
+
+    <!-- First page -->
+    <div data-role="page" id="page1">
+        <!-- nav bar -->
+        <div data-role="header" data-position="fixed" id="linkStuff">
+          <a href="#page" class="ui-btn  ui-icon-arrow-l ui-btn-icon-left">Home Page</a>
+          <h1>Manned Apollo Missions</h1>
+        </div>
+        <!-- end of nav bar -->
+      <div class="ui-content" role="main">
+        <br><br>
+        <div id="apolloList" data-role="listview"></div>
+      </div>
+      <!-- start of footer -->
+      <div data-role="footer" data-position="fixed" id="linkStuff">
+        <h4> 
+          <a href="#page">Home Page <span class="fas fa-rocket"></span></a>
+          <br><br>
+          <a href="../../index-381.html">IT 381 Index Page <span class="fas fa-rocket"></span></a>
+        </h4>
+      </div>
+      <!-- end of footer -->
+    </div>
+    <!-- end of first page -->
+
+    <!-- Second page -->
+    <div data-role="page" id="page2">
+      <!-- nav bar -->
+      <div data-role="header" data-position="fixed" id="linkStuff">
+        <a href="#page" class="ui-btn  ui-icon-arrow-l ui-btn-icon-left">Home Page</a>
+        <a href="#page1" class="ui-btn  ui-icon-arrow-l ui-btn-icon-left">Previous Page</a>
+        <h1>Manned Apollo Missions</h1>
+      </div>
+      <!-- end of nav bar -->
+      <center>
+        <div class="ui-content">
+          <div id="theFlight">
+            Flight Here:
+          </div>
+          <div id="thePic">
+            Picture Here:
+          </div>
+          <div id="theCrew">
+            Crew Here:
+          </div>
+        </div>
+      </center>
+      <!-- start of footer -->
+      <div data-role="footer" data-position="fixed" id="linkStuff">
+        <h4> 
+          <a href="#page">Home Page <span class="fas fa-rocket"></span></a>
+          <br><br>
+          <a href="../../index-381.html">IT 381 Index Page <span class="fas fa-rocket"></span></a>
+        </h4>
+      </div>
+      <!-- end of footer -->
+    </div>
+    <!-- end of second page -->
+
+  </body>
+
+</html>
+
+
+
+

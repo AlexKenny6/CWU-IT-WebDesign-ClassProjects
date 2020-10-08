@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Truth Table</title>
+		
+		<style type="text/css">
+			:root {
+				--main: #6AE368;
+			}
+			
+			#container {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 5px;
+				text-content: center;
+				font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+				width: 100%;
+				height: 100%;
+				text-size: xx-large;
+				padding: 0 20;
+				background-color: var(--main);
+				align-content: center;
+				
+			}
+			
+			#title {
+				font-size: xx-large;
+				color: white;
+				background-color: var(--main);
+				text-align: center;
+				height: 100px;
+			}
+			
+			
+			
+			#nav {
+				padding-bottom: 10px;
+			}
+			
+			#nav a {
+				text-decoration: none;
+				color: white;
+				background-color: var(--main);
+				float: left;
+				display: block;
+				width: 25%;
+				text-align: center;
+			}
+			
+			#nav a:hover {
+				background-color: white;
+				color: var(--main);
+			}
+			
+			#content {
+				padding: 15px;
+			}
+			
+			#content p {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			
+			#columnWrapper {
+				width: auto;
+				background-color: white;
+				padding: 5px;
+			}
+			
+			#columnWrapper h2 {
+				text-align: center;
+			}
+			
+			#columnWrapper p {
+				text-align: left;
+			}
+			
+			
+			#columnLeft {
+				float: left;
+				width: 50%;
+			}
+			
+			#columnLeft p {
+				color: black;
+			}
+			
+			#columnLeft h2 {
+				text-align: center;
+			}
+			
+			#columnLeft img {
+				max-width: 300px;
+				width: 100%;
+				max-height: 300px;
+				height: 100%;
+				align-self: center;
+				padding: 10px;
+			}
+			
+			#columnLeft hr {
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			
+			#columnRight {
+				float: left;
+				width: 50%;
+				height: auto;
+			}
+			
+			#columnRight img {
+				max-width: 400px;
+				max-height: 600px;
+				width: 100%;
+				height: 100%;
+				align-self: center;
+				padding: 10px;
+			}
+			
+			.clearIt {
+				clear: left;
+			}
+			
+			#bottomDiv {
+				text-align: center;
+			}
+			
+			#bottomDiv p {
+				text-align: left;
+			}
+			
+			#footer {
+				text-align: center;
+				padding: 5;
+			}
+			
+			#footer p {
+				padding-bottom: 10px;
+			}
+			
+			#footer a {
+				color: white;
+				text-decoration: none;
+				background-color: var(--main);
+			}
+			
+			#footer a:hover {
+				background-color: white;
+				color: var(--main);
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="title">
+				<h1>What's A Truth Table Mean?</h1>
+				<hr>
+			</div>
+			<div id="nav">
+				<a href="index.html">Home</a>
+				<a href="bitTable.html">Bit Table</a>
+				<a href="truthTable.html">Truth Table</a>
+				<a href="bitsExplained.html">Bits Explained</a>
+			</div>
+			<div id="content">
+				<div id="columnWrapper">
+					<h2>A Truth Table Explained in English :)</h2>
+					<div id="columnLeft">
+						<br>
+						<p>
+							A truth table is a sneaky little box that is fundamental to understanding how binary numbers, a.k.a 1's and 0's add up to each other. It may sound confusing but trust me, it'll make sense.
+							<br><br>
+							As you can see, there are four rows that have some kind of addition. In row 1, 0 + 0 = 0. In a ten number system or 0 to 9, the number system we grew up learning, 0 + 0 does equal 0.
+							<br><br>
+							The next row is 0 + 1. This is the 0 in the "2" column being inactive and the 1 activating the "1" column. The answer will be 1.
+							<br><br>
+							1 + 0 equals 1 or in normal terms, the answer is 2. Think back to the table we used on the Bit Table page. The 1 is showing that the column with the "2" is active and the 0 shows that the "1" column is inactive. Therefore, the answer is 2.
+							<br><br>
+							The last row is 1 + 1, the normal number system suggests that the answer is 2, however this is wrong. The first 1 is activating the "2" column and the second 1 is activating the "1" column. Therefore, the answer is 3.
+						</p>
+					</div>
+					<div id="columnRight">
+						<center>
+							<img src="media/binaryTruthTable.jpg" alt="Binary Numbers Truth Table">
+						</center>
+					</div>
+				<div class="clearIt"></div><hr>
+				<div id="bottomDiv">
+					<p>
+						After looking at the above table, the math can be applied to the other numbers on the bit table. With this concept, the number for example, 60 can be acquired by the number sequence 00111100.
+					</p>
+				</div>
+			</div>
+			</div>
+			<div id="footer">
+				<p><a href="http://www.cwu.edu/~kennya/">Index Page</a></p>
+				<p>&copy; Alex Kenny, All rights reserved</p>
+			</div>
+		</div>
+	</body>
+</html>

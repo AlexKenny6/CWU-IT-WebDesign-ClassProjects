@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>West Coast Web Design</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+</script> 
+<!-- Load the code necessary to migrate from an earlier version (optional) --> 
+<script
+  src="https://code.jquery.com/jquery-migrate-3.1.0.js"
+  integrity="sha256-oA/lsZCgEPkbv/byAkeXSTEZTsGOPZCrtbyFBHmcGKM="
+  crossorigin="anonymous">
+</script> 
+<!-- Load the code for the mobile extensions --> 
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+<!-- Load the base stylesheet for jquery mobile -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	
+<script type="text/javascript">
+function getmynote(){
+	// retrieve fn (first name)
+	if(localStorage.theFirstName){
+		var usertext="First Name: " +localStorage.theFirstName;
+	}
+	else {
+		var usertext = 'No first name entered'
+	}
+	document.getElementById('firstName').innerHTML = usertext;
+	
+	// retrieve ln (last name)
+	if(localStorage.theLastName){
+		var usertext="Last Name: " +localStorage.theLastName;
+	}
+	else {
+		var usertext = 'No last name entered'
+	}
+	document.getElementById('lastName').innerHTML = usertext;
+
+	// retrieve em (email)
+	if(localStorage.theMainEmail){
+		var usertext="Email: " +localStorage.theMainEmail;
+	}
+	else {
+		var usertext = 'No email entered'
+	}
+	document.getElementById('mainEmail').innerHTML = usertext;
+
+	// retrieve fp (favorite plan)
+	if(localStorage.theFavPlan){
+		var usertext="Plan: " +localStorage.theFavPlan;
+	}
+	else {
+		var usertext = 'No plan entered'
+	}
+	document.getElementById('favPlan').innerHTML = usertext;
+
+}
+function clearItems() {
+	localStorage.clear();
+	window.location="wishListResults.html"
+}
+</script>
+</head>
+
+<body>
+<div data-role="page" id="page">
+  <div data-role="header">
+    <h1>West Coast Web Design Wish List Results</h1>
+    <div data-role="navbar">
+		<ul>
+			<li><a href="../index.html" rel="external">Home</a></li>
+			<li><a href="wishList1.html" rel="external">Name</a></li>
+			<li><a href="wishList2.html" rel="external">Plan</a></li>
+			<li><a href="wishListResults.html" rel="external" class="ui-btn-active ui-state-persist">Results</a></li>
+		</ul>
+    </div>
+  </div>
+  <div data-role="content">
+	<p>You have selected this information <br>Please make sure it is correct.</p>
+    <div id="firstName"></div>
+	<div id="lastName"></div>
+	<div id="mainEmail"></div>
+	<div id="favPlan"></div>
+	<br>
+	<p>For reference to the plans:
+		<ul style="list-style: none;">
+			<li>Plan 1: Landing Page, Starting @ $100</li>
+			<li>Plan 2: Basic Page, Starting @ $50</li>
+			<li>Plan 3: E-Commerce Website, Starting @ $500</li>
+		</ul>
+	</p>
+  </div>
+  <div>
+    <input type="button" value="Clear LocalStorage" OnClick="javascript:clearItems();">
+  </div>
+  <div data-role="footer">
+    <h4> 
+		<a href="../../index-381.html">Index</a>
+	  </h4>
+  </div>
+</div>
+<script>
+	getmynote();
+</script>
+</body>
+</html>

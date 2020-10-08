@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataroot>
+    <report>
+        <stepID>1</stepID>
+        <topic>Contract Signed and Business Plan Created</topic>
+        <desc>Contract signed, time to start work</desc>
+        <dueDate>2/15/2020</dueDate>
+        <comments>Discussed contract, project costs, and scope of project</comments>
+        <checkIn>Client Approved</checkIn>
+        <status>Completed</status>
+        <ID>1</ID>
+    </report>
+    <report>
+        <stepID>2</stepID>
+        <topic>Domain name bough</topic>
+        <desc>shoes.com bought!</desc>
+        <dueDate>2/16/2020</dueDate>
+        <comments>Bought the domain name</comments>
+        <checkIn>Client Approved</checkIn>
+        <status>Completed</status>
+        <ID>1</ID>
+    </report>
+    <report>
+        <stepID>3</stepID>
+        <topic>Change BG Picture to shoes</topic>
+        <desc>Need to find a new picture to use, Florence won't work</desc>
+        <dueDate>2/19/2020</dueDate>
+        <comments>Use unsplash.com for free images</comments>
+        <checkIn>Client Approved</checkIn>
+        <status>Completed</status>
+        <ID>1</ID>
+    </report>
+    <report>
+        <stepID>4</stepID>
+        <topic>Find images for products *4</topic>
+        <desc>Go to Nike.com and find shoe pics etc</desc>
+        <dueDate>Next Week</dueDate>
+        <comments>We need to find shoe products, think Jordan and Lebrons</comments>
+        <checkIn>Not Approved</checkIn>
+        <status>Completed</status>
+        <ID>1</ID>
+    </report>
+    <report>
+        <stepID>5</stepID>
+        <topic>Figure out how much to sell each shoe</topic>
+        <desc>Use StockX as a starting point</desc>
+        <dueDate>Next week</dueDate>
+        <comments>We need to find prices to put on each shoe</comments>
+        <checkIn>Not Approved</checkIn>
+       <status>Completed</status>
+        <ID>1</ID>
+    </report>
+    <report>
+        <stepID>6</stepID>
+        <topic>Find a cheap shipping provider</topic>
+        <desc>Look at the rates for UPS, USPS, and Fedex. Could do local self delivery to save money</desc>
+        <dueDate>TBA</dueDate>
+        <comments>Need to find a shipping provider or focus on the local population first</comments>
+        <checkIn>Not Approved</checkIn>
+        <status>Not Completed</status>
+        <ID>2</ID>
+    </report>
+    <report>
+        <stepID>7</stepID>
+        <topic>Ad Campign</topic>
+        <desc>Look into starting an ad campaing on Facebook, Insta, and Google</desc>
+        <dueDate>TBA</dueDate>
+        <comments>Need to get the word out about our shoes, contact local influences for paid promos?</comments>
+        <checkIn>Not Approved</checkIn>
+        <status>Not Completed</status>
+        <ID>2</ID>
+    </report>
+    <report>
+        <stepID>8</stepID>
+        <topic>Projected Completion Date</topic>
+        <desc>Client wants project done by June 1st</desc>
+        <dueDate>Last week of May</dueDate>
+        <comments>Proj must be done end of May for launch in June</comments>
+        <checkIn>Approved</checkIn>
+        <status>Not Completed</status>
+        <ID>2</ID>
+    </report>
+     <report>
+        <stepID>3</stepID>
+        <topic>Change BG Picture to shoes</topic>
+        <desc>Need to find a new picture to use, Florence won't work</desc>
+        <dueDate>2/19/2020</dueDate>
+        <comments>Use unsplash.com for free images</comments>
+        <checkIn>Client Approved</checkIn>
+        <status>Completed</status>
+        <ID>1</ID>
+    </report>
+</dataroot>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>E-Com Page</title>
+    <!-- Load the base jquery code from the jquery Content Distribution Network (CDN) --> 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous">
+    </script> 
+    <script type="text/javascript" src="js/apolloTabs.js"></script>
+
+    <link href="css/apolloStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-min.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>   
+    <div id="container">
+      <!-- Title -->
+        <div class="hero-image">
+          <div class="hero-text">
+            <br><br><br>
+            <h1 style="font-size:60px">Ellensburg Photos</h1>
+            <p style="font-size: large;">Your home to everything photo related</p>
+            <br><br><br>
+          </div>
+        </div>
+      <!-- <div id="title">Hero Img Here</div> -->
+
+      <!-- Nav bar -->
+      <div class="nav">
+        <ul class="lav-ul">
+          <li class="nav-li"><button class="nav-btn button" value="1"><span>Firenze</span></button></li>
+          <li class="nav-li"><button class="nav-btn button" value="2"><span>Toy Cars</span></button></li>
+          <li class="nav-li"><button class="nav-btn button" value="3"><span>Agora</span></button></li>
+          <li class="nav-li"><button class="nav-btn button" value="4"><span>Cannon Beach</span></button></li>
+        </ul>
+      </div>
+      <br class="clearIt"><br><br>
+      <div id="contents"></div>
+      <br>
+      <!-- Why does a class repeat the info but an id doesnt -->
+
+
+      <div class="products">
+        <h3 class="products-title">Suggested Images</h3>
+        <div class="products-main">
+          <button class="products-btn button" value="1"><img src="images/firenze.jpg" class="products-img" alt=""><p class="products-text">Firenze</p></button>
+          <button class="products-btn button" value="2"><img src="images/toyCars.jpg" class="products-img" alt=""><p class="products-text">Toy Cars</p></button>
+          <button class="products-btn button" value="3"><img src="images/agora.jpg" class="products-img" alt=""><p class="products-text">Agora</p></button>
+          <button class="products-btn button" value="4"><img src="images/cannonBeach1.jpg" class="products-img" alt=""><p class="products-text">Cannon Beach</p></button>
+        </div>
+      </div><br>
+      <hr>
+      <!-- End of suggested products -->
+      
+
+      <!-- <div id="footer">&copy; Alex Kenny 2020</div> -->
+      <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md">
+            <small class="d-block mb-3 text-muted">&copy; Alex Kenny 2020</small>
+            <small class="d-block mb-3">Hours: 24/7 Mon-Sun ;)</small>
+          </div>
+          <div class="col-4 col-md">
+            <h5 style="color: green;">My Index</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" target="_blank" href="http://www.cwu.edu/~kennya/">Alex Kenny Index</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-md">
+            <h5 style="color: green;">More Photo Background</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" target="_blank" href="https://en.wikipedia.org/wiki/Florence">Firenze</a></li>
+              <li><a class="text-muted" target="_blank" href="https://shop.mattel.com/shop/en-us/ms/vehicles-remote-control-cars#facet:&productBeginIndex:0&orderBy:&pageView:grid&minPrice:&maxPrice:&pageSize:&contentPageSize:&">Toy Cars</a></li>
+              <li><a class="text-muted" target="_blank" href="https://en.wikipedia.org/wiki/Agora">Agora</a></li>
+              <li><a class="text-muted" target="_blank" href="https://www.cannonbeach.org/">Cannon Beach</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-md">
+            <h5 style="color: green;">About Us</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Our History</a></li>
+              <li><a class="text-muted" href="#">Terms and Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- End of footer -->
+    </div>
+    <!-- end of container -->
+  </body>
+</html>

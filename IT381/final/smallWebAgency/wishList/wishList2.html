@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>West Coast Web Design</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+</script> 
+<!-- Load the code necessary to migrate from an earlier version (optional) --> 
+<script
+  src="https://code.jquery.com/jquery-migrate-3.1.0.js"
+  integrity="sha256-oA/lsZCgEPkbv/byAkeXSTEZTsGOPZCrtbyFBHmcGKM="
+  crossorigin="anonymous">
+</script> 
+<!-- Load the code for the mobile extensions --> 
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+<!-- Load the base stylesheet for jquery mobile -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	
+<script type="text/javascript">
+function getOldData(){
+	//retrieve the favorite plan
+	if(localStorage.theFavPlan){
+		var usertext=localStorage.theFavPlan;
+	}
+	else {
+		var usertext = ''
+	}
+	document.getElementById('favPlan').value = usertext;
+}
+
+function storemyform(){
+	// get values from form and store them in localStorage
+	var myFavPlan = theform.favPlan.value;
+	localStorage.theFavPlan = myFavPlan;
+}
+</script>
+</head>
+
+<body>
+<div data-role="page" id="page">
+  <div data-role="header">
+    <h1>West Coast Web Design</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="../index.html" rel="external">Home</a></li>
+        <li><a href="wishList1.html" rel="external">Name</a></li>
+        <li><a href="wishList2.html" rel="external" class="ui-btn-active ui-state-persist">Plan</a></li>
+        <li><a href="wishListResults.html" rel="external">Results</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+    <form id="theform">
+      <p>
+        <label for="favPlan">Plan You Want to Have:</label>
+        <input type="text" name="favPlan" id="favPlan" autocomplete="off">
+      </p>
+      <p>
+        <input type="button" value="Update Information" OnClick="javascript:storemyform();">
+      </p>
+    </form>
+  </div>
+  <div data-role="footer">
+    <h4> 
+      <a href="../../index-381.html">Index</a>
+    </h4>
+  </div>
+</div>
+<script>
+	getOldData();
+</script>
+</body>
+</html>

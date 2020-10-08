@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot>
+<standards>
+<interestRate>8.0</interestRate>
+<salesTax>0.09</salesTax>
+</standards>
+<tour>
+<ID>1</ID>
+<cost>990.00</cost>
+<model>Beautiful Tuscany (4 days)</model>
+<pic>tour1.jpg</pic>
+<notes>Firenze, Pisa, and Milano</notes>
+</tour>
+<tour>
+<ID>2</ID>
+<cost>2100.00</cost>
+<model>The Best of Italy (12 days)</model>
+<pic>tour2.jpg</pic>
+<notes>Roma, Venezia, and Milano</notes>
+</tour>
+<tour>
+<ID>3</ID>
+<cost>1760.00</cost>
+<model>Historic Places</model>
+<pic>tour3.jpg</pic>
+<notes>Pompeii, Roma, and Napoli</notes>
+</tour>
+<tour>
+<ID>4</ID>
+<cost>1450.00</cost>
+<model>The Art Tour (6 days)</model>
+<pic>tour4.jpg</pic>
+<notes>Firenze, Venezia, and Roma</notes>
+</tour>
+</dataroot>

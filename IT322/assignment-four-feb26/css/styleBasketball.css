@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+
+/* Variables */
+:root {
+	/* Colors */
+	--white: white;
+	--main-font-color: blue;
+	--main-buy-btn: yellow;
+	--main-bg-color: grey;
+
+	/* Font sizes */
+	--main-large-font-size: large;
+	--main-medium-font-size: medium;
+	--main-small-font-size: small;
+	
+}
+
+/* Helper Funcs */
+.center-anything {
+	text-align: center;
+}
+
+.small-text {
+	font-size: var(--main-small-font-size);
+}
+
+
+
+
+#footer {
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: var(--white);
+}
+
+#container {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	background-color: grey;
+}
+
+.basketball-img {
+	height: 100%;
+	width: 60%;
+	max-height: 450px;
+	max-width: 400px;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.h2Padding {
+	padding-left: 10%;
+}
+
+
+li {
+	list-style-type: none;
+}
+
+.nav {
+	margin: auto;
+}
+
+.nav-ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5;
+	overflow: hidden;
+	width: auto;
+}
+
+.nav-li {
+	float: left;
+	padding-right: 10px;
+} /* individual btn padding */
+
+.nav-btn {
+	/* display: block;
+	height: 50px;
+	width: auto; */
+	background-color: var(--main-bg-color); 
+	color: var(--main-font-color);
+	display: inline-block;
+	border-radius: 4px;
+	border: none;
+	text-align: center;
+	font-size: 15px;
+	padding: 20px;
+	width: auto;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.nav-btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	text-align: center;
+}
+
+.nav-btn span::after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.nav-btn:hover span {
+	padding-right: 25px;
+}
+
+.nav-btn:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+
+.patch-img {
+	display: block;
+	padding: 10px;
+	width: 30%;
+	margin-left: 10px;
+	height: 100%;
+	width: 100%;
+	max-height: 400px;
+	max-width: 400px;
+}
+
+.patch-text {
+	text-align: center;
+	color: var(--main-font-color);
+}
+
+
+/* Buy Me Css */
+.buy-btn {
+	background-color: var(--main-buy-btn);
+	border-radius: 12px;
+	padding: 10px;
+	width: auto;
+	font-size: var(--main-large-font-size);
+	color: black;
+}
+
+.buy-btn:after {
+	background-color: var(--main-buy-btn);
+	border-radius: 15px;
+	padding: 15px;
+	width: 35%;
+}
+
+
+
+
+/*  Suggested Whatever Row */
+.products {
+	content: "|\00a0\00a0";
+}
+
+.products-title {
+	text-align: center;
+	color: var(--main-font-color);
+}
+
+.products-main {
+	text-align: center;
+	padding: 10px;
+}
+
+.products-btn {
+	padding: 3px;
+	border-radius: 12px;
+	border: var(--main-font-color) solid 2px;
+	
+}
+
+.products-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 5px;
+	height: 90px;
+	width: 100px;
+}
+
+.products-text {
+	font-size: var(--main-large-font-size);
+	color: var(--main-font-color);
+}
+
+
+/* progress bar */
+.skillContainer {
+	width: 50%; /* Full width */
+}
+
+.skills {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.shoes {
+	width: 97%; 
+	background-color: var(--main-font-color);
+} /* blue */
+

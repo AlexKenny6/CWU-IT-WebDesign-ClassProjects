@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot>
+
+<item>
+<ID>1</ID>
+<cost>Starting @ $100</cost>
+<service>Landing Page</service>
+<pic>code1.png</pic>
+<notes>Our best seller!</notes>
+</item>
+
+<item>
+<ID>2</ID>
+<cost>Starting @ $50</cost>
+<service>1 Page Basic Page</service>
+<pic>code2.png</pic>
+<notes>Cheapest plan</notes>
+</item>
+
+<item>
+<ID>3</ID>
+<cost>Starting @ $500</cost>
+<service>E-Commerce Website</service>
+<pic>code3.png</pic>
+<notes>Worth the price!</notes>
+</item>
+
+</dataroot>

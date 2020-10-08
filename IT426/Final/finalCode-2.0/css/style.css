@@ -1,0 +1,130 @@
+/* #container {
+    width: 90%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+} */
+#title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #D3D6D7;
+}
+#currentInventory {
+    padding-left: px;
+    background-color: #E3E1E1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    float: left;
+}
+#columnWrapper {
+	left: 0;
+}
+#title h5 {
+    font-style: italic;
+}
+#addGame {
+    width: 30%;
+    float: left;
+    background-color: #F0EFEF;
+}
+.clearIt {
+    clear: left;
+}
+#answer {
+    padding-left: 15px;
+}
+#inventoryTitle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+#inputs {
+    padding-left: 10px;
+}
+.tabs {
+    width: 25%;
+    float: left;
+}
+.tabtitle {
+    background-color: #D3D6F5;
+    width: 25%;
+    float: left;
+    font-weight: bold;
+}
+#chart_div {
+    float: left;
+}
+#chart_div2 {
+    float: left;
+}
+
+
+
+
+
+/* new css code */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #46b4e7;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+  
+/* navbar style */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+}
+
+
+/* Main column */
+.main {   
+    flex: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.footer {
+    padding: 15px; 
+    text-align: center; 
+    background: #ddd;
+}
